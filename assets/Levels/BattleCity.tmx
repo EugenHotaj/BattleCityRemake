@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="26" height="26" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="Terrain" tilewidth="16" tileheight="16">
+  <image source="SpriteSheet.png" width="128" height="32"/>
+  <tile id="4">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Destructible" value="True"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="Spawnable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Impassible" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Interactable" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJztldsKgDAIhldedXj/521BwRCdh5kE9YOwudk3nK5S4gQP79dqa4zyc/uouRSPx9K6dS2b08vRCOeLefNwqHp8i6je0PSMl9HGA+EfyZOnfjUM/KZZOJxP805GcHq6z6Ctcy8Hx0p9G8GJ1G4wfK9gjM/g/MoR95+VZL2/89tTtfkaR9UYxVmqrUbOAX0LCO8=
+  </data>
+ </layer>
+ <layer name="Foreground" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAb0BCxo92OxhIQOTo2+4AUr9TK1wo1fYUsseAGnPAMk=
+  </data>
+ </layer>
+ <layer name="Meta" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJztVTkOgDAM6wIb//8uYmCpbGKHEAawVKlN3FjNoY4RYxU4BxaRl+U7cc+F7IyHztH9eR/5XV+3zlWO7uh8MW8ZHdSPbwDNPJoNZWYcsDyyvkQ+VYedlfpm4kY6js3RzcZEfLXPmU39S2at6vc8hc1YqGbO/Q6dHz1g/2wEt37zHFX1WJXODhIcBok=
+  </data>
+ </layer>
+</map>

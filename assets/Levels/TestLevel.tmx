@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="26" height="26" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="Tiles" tilewidth="16" tileheight="16">
+  <image source="SpriteSheet.png" width="128" height="32"/>
+  <tile id="4">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Destructible" value="True"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="Spawnable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Interactable" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBi+gBuKacUftYc+9jBD8XCxh1w+qepwgcFmD73MoaU93Ay49ZMbbtjMY0bCtLKHGbtygubg4lMLoLuXHHvwxROx9hDjX3L0jdpDnD2EwFC0B1+apmb+AuljBGImCswg1h5OIOYi0R4Aoo0J8A==
+  </data>
+ </layer>
+ <layer name="Foreground" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20MH6AAAOBnCpAAAQ==
+  </data>
+ </layer>
+ <layer name="Meta" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAPYKOBHkLyrFBMK/6oPfSxBx0PdXvI5ZOqDhcYbPbQyxxa2oMv3ZAbbsSaRwt7SAH0jh9y/YtuBroYsfYQ419y9I3aQ5w9hMBQtAdfmqZm/gLp44ViWuRRSu0BAPmQBN4=
+  </data>
+ </layer>
+</map>
